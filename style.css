@@ -43,7 +43,7 @@ li > img{
     display: grid;
     grid-template-rows: 1fr 4fr 3fr;
     min-height: 100vh;
-    background-color: #9f1239;
+    background-color: #e78b51;
     color: white;
     font-weight: bolder;
 }
@@ -172,7 +172,7 @@ li > img{
     width: 22%;
     height: 32%;
     color: white;
-    background-color: #9f1239;
+    background-color: #e78b51;
 }
 
 .main-contentleft{
