@@ -163,6 +163,8 @@ li > img{
     justify-content: space-evenly;
     align-items: center;
     margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 
 }
 
@@ -190,7 +192,7 @@ li > img{
     margin-top: 5%;
     margin-bottom: 2%;
     font-weight: bolder;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .right-top{
@@ -209,22 +211,26 @@ li > img{
     border-style: solid;
     border-width: 2px;
     border-radius: 8px;
-    border-color: white white white #fcd34d;
+    border-color: white white white #e78b51;
     border-left-width: 5px;
     background-color: white;
     min-height: 250px;
     box-shadow: 1px 1px 5px rgb(189, 189, 189);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card > *{
     margin-left: 4%;
     margin-right: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 .card-title{
     font-weight: bolder;
-    margin-top: 8%;
-    margin-bottom: 1%;
+    align-self: center;
 }
 
 .card-content{
@@ -286,9 +292,11 @@ li > img{
     box-shadow: 1px 1px 5px rgb(189, 189, 189);
 }
 
-.trending-image > *{
+.trending-image {
+    min-width: 50px;
+    min-height: 50px;
+    background-color: #e78b51;
     border-radius: 50%;
-    width: 60px;
 }
 
 .trending-section{
