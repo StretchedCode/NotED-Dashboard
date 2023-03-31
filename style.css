@@ -57,12 +57,18 @@ li > img{
     align-items: center;
     margin-top: -28%;
     gap: 10px;
-    font-size: 140%;
+    min-height: 40%;
+    min-width: 40%;
 }
 
 .sidebar-header > img{
     max-height: 40%;
     max-width: 40%;
+}
+
+.logoImage{
+    min-width: 150px;
+    min-height: 150px;
 }
 
 .navigation{
